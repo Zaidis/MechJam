@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public KaijuManager Manager_Kaiju;
     public MechManager Manager_Mech;
 
     private void Awake() {
@@ -15,6 +16,6 @@ public class GameManager : MonoBehaviour
 
     }
 
-
+    
 
 }
