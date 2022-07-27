@@ -10,6 +10,7 @@ public class KaijuManager : MonoBehaviour
     #region KaijuHealth
     public void DamageKaiju(Kaiju k, int amount) {
         k.Damage(amount);
+        
     }
 
 

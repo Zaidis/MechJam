@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     public KaijuManager Manager_Kaiju;
     public MechManager Manager_Mech;
-
+    //needs to hold onto engine, power supply, lights, 
     private void Awake() {
         if (instance == null) instance = this;
         else Destroy(this);
